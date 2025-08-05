@@ -34,3 +34,4 @@ while True:
     messages.append(response.choices[0].message)
 
     print("Assistant:", response.choices[0].message.content)
+    print(messages)
